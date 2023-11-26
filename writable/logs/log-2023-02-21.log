@@ -1,0 +1,115 @@
+CRITICAL - 2023-02-21 02:50:08 --> Undefined variable $datamhs
+in APPPATH\Views\mainmenu\jurusan.php on line 33.
+ 1 APPPATH\Views\mainmenu\jurusan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datamhs', 'APPPATH\\Views\\mainmenu\\jurusan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mainmenu\\jurusan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/jurusan', [], true)
+ 5 APPPATH\Controllers\Jurusan.php(16): view('/mainmenu/jurusan')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurusan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 07:21:15 --> syntax error, unexpected token ";"
+in APPPATH\Views\mainmenu\mahasiswanew.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/mahasiswanew', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(48): view('/mainmenu/mahasiswanew')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->new()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 07:33:44 --> Invalid file: "/mainmenu/mahasiswaview.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/mainmenu/mahasiswaview.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/mahasiswaview', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(38): view('/mainmenu/mahasiswaview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->show('47')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 07:33:48 --> Invalid file: "/mainmenu/mahasiswaview.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/mainmenu/mahasiswaview.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/mahasiswaview', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(38): view('/mainmenu/mahasiswaview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->show('47')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 07:57:53 --> Undefined variable $dt
+in APPPATH\Views\mainmenu\mahasiswanew.php on line 67.
+ 1 APPPATH\Views\mainmenu\mahasiswanew.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dt', 'APPPATH\\Views\\mainmenu\\mahasiswanew.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mainmenu\\mahasiswanew.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/mahasiswanew', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(48): view('/mainmenu/mahasiswanew')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->new()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 09:10:21 --> Invalid file: "/mainmenu/mahasiswaview.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/mainmenu/mahasiswaview.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/mahasiswaview', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(38): view('/mainmenu/mahasiswaview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->show('47')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 09:10:23 --> Invalid file: "/mainmenu/mahasiswaview.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/mainmenu/mahasiswaview.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/mahasiswaview', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(38): view('/mainmenu/mahasiswaview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->show('47')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-21 09:22:46 --> Undefined variable $datamhs
+in APPPATH\Views\mainmenu\jurusan.php on line 33.
+ 1 APPPATH\Views\mainmenu\jurusan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datamhs', 'APPPATH\\Views\\mainmenu\\jurusan.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mainmenu\\jurusan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/mainmenu/jurusan', [], true)
+ 5 APPPATH\Controllers\Jurusan.php(16): view('/mainmenu/jurusan')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jurusan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jurusan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 09:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-21 09:35:35 --> mysqli_sql_exception: Duplicate entry '' for key 'Index 2' in C:\xampp\htdocs\template\MASTER\CI4_L3\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\template\MASTER\CI4_L3\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\template\MASTER\CI4_L3\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\template\MASTER\CI4_L3\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\template\MASTER\CI4_L3\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\template\MASTER\CI4_L3\app\Models\MahasiswaModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\template\MASTER\CI4_L3\app\Controllers\Mahasiswa.php(65): App\Models\MahasiswaModel->saveMhs(Array)
+#6 C:\xampp\htdocs\template\MASTER\CI4_L3\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->create()
+#7 C:\xampp\htdocs\template\MASTER\CI4_L3\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\template\MASTER\CI4_L3\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\template\MASTER\CI4_L3\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\template\MASTER\CI4_L3\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-21 09:35:35 --> Duplicate entry '' for key 'Index 2'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nik`, `nama`, `email`, `handphone`) VALUES (:nik:, :nama:, :email:, :handphone:)', [...], false)
+ 2 APPPATH\Models\MahasiswaModel.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Mahasiswa.php(65): App\Models\MahasiswaModel->saveMhs([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 09:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 09:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 09:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 09:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

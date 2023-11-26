@@ -1,0 +1,53 @@
+ERROR - 2023-09-15 04:00:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'lp3i', 3306, '', 0)
+#1 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\app\Models\MahasiswaModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\app\Controllers\Mahasiswa.php(18): App\Models\MahasiswaModel->getMhs()
+#8 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#9 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Commands\Server\rewrite.php(47): require_once('E:\\D.O.C.U.M.E....')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\app\Models\MahasiswaModel.php(18): CodeIgniter\BaseModel->findAll()
+#6 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\app\Controllers\Mahasiswa.php(18): App\Models\MahasiswaModel->getMhs()
+#7 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+#8 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\D.O.C.U.M.E.N.T\4 KAMPUS\2023\ASE56\CI4\system\Commands\Server\rewrite.php(47): require_once('E:\\D.O.C.U.M.E....')
+#12 {main}
+CRITICAL - 2023-09-15 04:00:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\MahasiswaModel.php(18): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Mahasiswa.php(18): App\Models\MahasiswaModel->getMhs()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-09-15 04:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 04:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 04:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 04:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 04:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-15 04:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
